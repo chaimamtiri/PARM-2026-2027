@@ -27,7 +27,7 @@ sbcs r5, r1
 
 movs r6, #170
 rors r6, r1
-@r5 value should be 85, 55
+@r6 value should be 85, 55
 
 tst r2, r6
 @flag Z should be activated, flags value should be 0100
